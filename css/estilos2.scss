@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+ } 
+body{
+    background-color:#D6DBDF;
+    font-size: 13px;
+    }
+.imagen{
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    width: 56%;
+    height: 60%;
+    }
+.letrado_h1{
+    padding: 50px;  
+    text-align:center;
+    text-transform: capitalize;
+    color:#283747;
+    font-size: 30px;
+}
+.letrado{
+    padding: 25px;
+    text-align:center;
+    text-transform: capitalize;
+    font-size: 25px;
+} 
+#gallery{
+    padding: 15px;
+}
+#gallery img{
+    width:100%;
+    height: 200px;
+    
+}
+#gallery img:hover{
+    border:5px solid;
+}
+img{
+    max-width:100%;
+    padding:5px;
+}
+.deco{
+    padding: 2px;
+    background-color: #16A085;
+    .navbar{
+        height: 36px;
+    }
+    .formulario{
+        height: 30px;
+        text-align:justify-all;
+        text-transform: capitalize;
+    }
+    
+}
+main{
+    min-height: calc(100vh - 80px);
+}
